@@ -1,3 +1,6 @@
+###Created by
+Dave More
+
 ### Date created
 11/27/18
 
@@ -14,4 +17,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Project was created with the help of a Udacity Nanodegree - Programming for Data Science. 
+Project was created with the help of a Udacity Nanodegree - Programming for Data Science.
