@@ -33,7 +33,7 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     # Checks that a valid month is entered. If not, asks user to enter again.
     check_month = 0
-    months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+    months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'jan', 'feb', 'mar', 'apr', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
     while check_month == 0:
         month = input("Which month would you like to filter results by (enter 'all' for no filter): ").lower()
         if month in months or month == 'all':
@@ -45,7 +45,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     # Checks that a valid day is entered. If not, asks user to enter again.
     check_day = 0
-    days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
+    days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
     while check_day == 0:
         day = input("Which day of the week would you like to filter results by (enter 'all' for no filter): ").lower()
         if day in days or day == 'all':
