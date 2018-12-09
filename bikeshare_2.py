@@ -1,3 +1,6 @@
+#Python file used to provide bikeshare statistics of three major cities
+# (New York, Washington, Chicago) based on user input
+
 import time
 import pandas as pd
 import numpy as np
